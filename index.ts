@@ -1,5 +1,4 @@
-import { rejects } from "assert";
-import { Channel, Client, VoiceChannel, VoiceConnection } from "discord.js";
+import { Client, VoiceChannel } from "discord.js";
 import { config } from "dotenv";
 import path from "path";
 
