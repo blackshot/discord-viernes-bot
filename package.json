@@ -1,0 +1,34 @@
+{
+  "name": "viernesbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node --project tsconfig.json .",
+    "watch": "ts-node-dev --project tsconfig.json .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "viernes",
+    "bot",
+    "discord",
+    "discordjs"
+  ],
+  "author": "SirHectorin",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.4.0",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "ffmpeg-static": "^4.2.7",
+    "libsodium-wrappers": "^0.7.9",
+    "path": "^0.12.7",
+    "sodium": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.2"
+  }
+}
